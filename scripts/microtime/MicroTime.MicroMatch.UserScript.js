@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         MicroTimez for MicroMatch
-// @namespace    MicroTimez
+// @name         MicroTime for MicroMatch
+// @namespace    MicroTime
 // @version      1.0
 // @description  This bot get's 0.5 seconds most of the time, clicking "Play again" prevents the "Start game button", so in those cases it will get ~0.7-0.8 seconds.
 // @author       John Jelatis
