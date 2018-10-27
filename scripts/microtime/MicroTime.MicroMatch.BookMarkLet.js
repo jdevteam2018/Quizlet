@@ -19,9 +19,9 @@ function onclick() {
 		} catch(err) {
 			alert(err);
 		};
-	}, 500);
+	}, 490);
 };
-if(Quizlet.matchModeData.isReplaying) {
+if(((Quizlet || {}).matchModeData || {}).isReplaying) {
 	window.onload = onclick;
 } else {
 	window.onclick = onclick;

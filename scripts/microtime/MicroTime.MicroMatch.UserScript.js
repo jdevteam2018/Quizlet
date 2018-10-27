@@ -33,7 +33,7 @@
 			};
 		}, 500);
 	};
-	if(Quizlet.matchModeData.isReplaying) {
+	if(((Quizlet || {}).matchModeData || {}).isReplaying) {
 		window.onload = onclick;
 	} else {
 		window.onclick = onclick;
